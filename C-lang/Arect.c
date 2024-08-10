@@ -1,5 +1,5 @@
 #include<stdio.h>
-Int main()
+int main()
 {
     int l,b,area;
     l=12;
