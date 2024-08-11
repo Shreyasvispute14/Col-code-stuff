@@ -11,7 +11,7 @@ int main(){
     //C=sqrt(pow(A,2)+pow(B,2)); or :
     C = sqrt(A*A + B*B);
 
-    printf("The Hypotenuse of the given triange is :%lf",C);
+    printf("The Hypotenuse ie. side c of the given triange is :%lf",C);
 
     return 0;
 }
