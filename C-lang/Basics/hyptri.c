@@ -8,7 +8,8 @@ int main(){
     printf("Give the value of two sides i.e,.A and B:");
     scanf("%lf%lf",&A,&B);
 
-    C=sqrt(pow(A,2)+pow(B,2));
+    //C=sqrt(pow(A,2)+pow(B,2)); or :
+    C = sqrt(A*A + B*B);
 
     printf("The Hypotenuse of the given triange is :%lf",C);
 
