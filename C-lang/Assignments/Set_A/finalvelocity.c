@@ -4,20 +4,12 @@ void main(){
     int sec;
     float distance,initial_velocity,velocity,acceleration; //Can use double for more accuracy %lf
     
-    printf("Enter the time in seconds\n");
-    scanf("%d",&sec);
-    
-    printf("Enter the initial Velocity\n");
-    scanf("%f",&initial_velocity);
-    
-    printf("Enter the acceleration\n");
-    scanf("%f",&acceleration);
+    printf("Enter the values of  initial velocity,acceleration and seconds ");
+    scanf("%f%f%d",&initial_velocity,&acceleration,&sec);
     
     velocity = (initial_velocity + (acceleration*sec));
     distance = (initial_velocity + (acceleration*(sec * sec))); 
     
     printf("Total velocity is %f\n",velocity);
     printf("Total distance is %f\n",distance);
-
-    return 0;
 }
