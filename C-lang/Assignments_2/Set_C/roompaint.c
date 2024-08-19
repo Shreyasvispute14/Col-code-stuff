@@ -1,3 +1,4 @@
+// Using dimensions find the area to be painted and whitewashed
 #include<stdio.h>
 int main(){
     float r_w,r_l,r_h , d_l,d_h , w_l,w_h , p_a , w_a;
@@ -15,7 +16,7 @@ int main(){
     w_a=r_l*r_w;
     
     printf("Area to be painted:\t%f\n",p_a);
-    printf("Area t obe White-washed:\t%f\n",w_a);
+    printf("Area to be White-washed:\t%f\n",w_a);
 
     return 0;
 

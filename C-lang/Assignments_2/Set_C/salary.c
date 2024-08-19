@@ -1,3 +1,5 @@
+// Find out the final salary of an employee...
+
 #include<stdio.h>
 #include<math.h>
 int main(){
@@ -14,7 +16,7 @@ int main(){
     da=(bsalary*0.3); //Given to Emp
     tax=(bsalary*0.05); //Deducted
     m=bsalary+((house_rent+da)-tax); // Paid salary
-    printf("ID:%d \n salary:%d",id,m);
+    printf("ID:%d \n salary:%1f",id,m);
 
     return 0;
 }
