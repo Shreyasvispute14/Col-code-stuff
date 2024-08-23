@@ -1,3 +1,4 @@
+//Chech whether the value is divisible by 5 'AND' 7
 #include<stdio.h>
 void main(){
     int n,f,m;

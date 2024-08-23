@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main(){
     char ch;
-    int islowerVowel,isUpperVowel; 
+    int vowel; 
 //Can obviously use one variable but WHY NOT!! *_*
     
     printf("Enter an Alphabet: ");
     scanf("%c",&ch);
 
-    islowerVowel = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
-    isUpperVowel = (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U');
+    vowel = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'|| ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U');
+    
 
-    if(islowerVowel || isUpperVowel){
+    if(vowel){
         printf("Entered alphabet %c is a vowel!",ch);
     }
     else {
