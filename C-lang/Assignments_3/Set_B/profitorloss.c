@@ -6,16 +6,15 @@ int main(){
     printf("Enter cost of Item:\n");
     scanf("%f",&cost);
 
-    printf("enter the selling prince of the item:\n");
+    printf("enter the selling price of the item:\n");
     scanf("%f",&price);
 
-    m=cost - price;
-    if(m<0)
+    m=price - cost;
+    if(m>0)
     {
-        m=(-1)*m;
         printf("Profit = %f",m);
     }
-    else if(m>0){
+    else if(m<0){
         m=(-1)*m;
         printf("Loss = %f",m);
     }
