@@ -8,7 +8,7 @@ void main(){
     scanf("%lf%lf",&x1,&y1);
     printf("\nEnter point B:");
     scanf("%lf%lf",&x2,&y2);
-    printf("\n1.Distance\n2.Slop\n3.quadrant\n4.Exit");
+    printf("\n1.Distance\n2.Slope\n3.quadrant\n4.Exit");
 
     while(ch!=4)
     {
