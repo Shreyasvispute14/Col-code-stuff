@@ -16,7 +16,7 @@ int searchCharacter(char *str, char ch) {
 int main() {
     char str[100],ch;
     printf("Enter a string:");
-    scanf("%s",str);
+    scanf("%s",&str);
 
     printf("Enter the character to search: ");
     scanf("%c", &ch);
